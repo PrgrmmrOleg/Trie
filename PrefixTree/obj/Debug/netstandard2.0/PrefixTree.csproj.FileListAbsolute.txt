@@ -1,0 +1,9 @@
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\bin\Debug\netstandard2.0\PrefixTree.deps.json
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\bin\Debug\netstandard2.0\PrefixTree.dll
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\bin\Debug\netstandard2.0\PrefixTree.pdb
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.csprojAssemblyReference.cache
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.csproj.CoreCompileInputs.cache
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.AssemblyInfoInputs.cache
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.AssemblyInfo.cs
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.dll
+C:\Users\olegg\source\repos\PrefixTree\PrefixTree\obj\Debug\netstandard2.0\PrefixTree.pdb
