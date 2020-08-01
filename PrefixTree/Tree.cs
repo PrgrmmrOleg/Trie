@@ -7,6 +7,16 @@ namespace PrefixTree
     {
         private List<Node> _nodes = new List<Node>();
 
+        public Tree() {}
+
+        public Tree(string[] words)
+        {
+            foreach (var word in words)
+            {
+                Add(word);
+            }
+        }
+
         public void Add(string word)
         {
             Add(word, _nodes);
