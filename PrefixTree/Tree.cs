@@ -11,6 +11,11 @@ namespace PrefixTree
 
         public Tree(string[] words)
         {
+            AddList(words);
+        }
+
+        public void AddList(string[] words)
+        {
             foreach (var word in words)
             {
                 Add(word);

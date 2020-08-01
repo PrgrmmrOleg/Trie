@@ -13,6 +13,29 @@ namespace PrefixTree.Tests
         }
 
         [Test]
+        public void FindWord()
+        {
+            string text;
+
+            using (StreamReader sr = new StreamReader(@"../../../TestFiles/Test1/TestFile.txt"))
+            {
+                text = sr.ReadToEnd();
+            }
+            string[] words = text.Split(new char[] { ' ' });
+
+
+            Tree tree = new Tree(words);
+
+
+            Random random = new Random();
+            int index = random.Next(0, words.Length - 1);
+
+            bool wordFound = tree.Contain(words[index]);
+
+            Assert.That(wordFound);
+        }
+
+        [Test]
         public void AddWords()
         {
             Tree tree = new Tree();
@@ -29,10 +52,17 @@ namespace PrefixTree.Tests
             {
                 tree.Add(word);
             }
+
+            Random random = new Random();
+            int index = random.Next(0, words.Length - 1);
+
+            bool wordFound = tree.Contain(words[index]);
+
+            Assert.That(wordFound);
         }
 
         [Test]
-        public void FindWord()
+        public void AddList()
         {
             Tree tree = new Tree();
 
@@ -44,11 +74,7 @@ namespace PrefixTree.Tests
             }
             string[] words = text.Split(new char[] { ' ' });
 
-            foreach (var word in words)
-            {
-                tree.Add(word);
-            }
-
+            tree.AddList(words);
 
             Random random = new Random();
             int index = random.Next(0, words.Length - 1);
